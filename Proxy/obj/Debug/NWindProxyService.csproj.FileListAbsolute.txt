@@ -1,0 +1,13 @@
+C:\Users\Usuario\Desktop\ORIGINAL\Proxy\bin\Debug\Proxy.dll
+C:\Users\Usuario\Desktop\ORIGINAL\Proxy\bin\Debug\Proxy.pdb
+C:\Users\Usuario\Desktop\ORIGINAL\Proxy\bin\Debug\Entities.dll
+C:\Users\Usuario\Desktop\ORIGINAL\Proxy\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Usuario\Desktop\ORIGINAL\Proxy\bin\Debug\SLC.dll
+C:\Users\Usuario\Desktop\ORIGINAL\Proxy\bin\Debug\Entities.pdb
+C:\Users\Usuario\Desktop\ORIGINAL\Proxy\bin\Debug\SLC.pdb
+C:\Users\Usuario\Desktop\ORIGINAL\Proxy\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Usuario\Desktop\ORIGINAL\Proxy\obj\Debug\NWindProxyService.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\ORIGINAL\Proxy\obj\Debug\NWindProxyService.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\ORIGINAL\Proxy\obj\Debug\NWindPro.37EB41C3.Up2Date
+C:\Users\Usuario\Desktop\ORIGINAL\Proxy\obj\Debug\Proxy.dll
+C:\Users\Usuario\Desktop\ORIGINAL\Proxy\obj\Debug\Proxy.pdb

@@ -1,0 +1,35 @@
+﻿@model Entities.Products
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detalles del Producto</title>
+</head>
+<body>
+    <h1>Detalles del Producto</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <td>@Model.ProductID</td>
+        </tr>
+        <tr>
+            <th>Nombre</th>
+            <td>@Model.ProductName</td>
+        </tr>
+        <tr>
+            <th>Precio Unitario</th>
+            <td>@Model.UnitPrice</td>
+        </tr>
+        <tr>
+            <th>Unidades en Existencia</th>
+            <td>@Model.UnitsInStock</td>
+        </tr>
+    </table>
+    <a href="@Url.Action("Index", "Home")">Regresar</a>
+</body>
+</html>

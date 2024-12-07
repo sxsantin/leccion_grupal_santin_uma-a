@@ -1,0 +1,2 @@
+C:\Users\Usuario\Desktop\ORIGINAL\NWind.MVCPLS1\obj\Debug\NWind.MVCPLS1.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\ORIGINAL\NWind.MVCPLS1\obj\Debug\NWind.MVCPLS1.csproj.CoreCompileInputs.cache

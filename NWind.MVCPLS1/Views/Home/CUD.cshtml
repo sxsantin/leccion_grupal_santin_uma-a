@@ -1,0 +1,62 @@
+﻿@model Entities.Products
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>@(Model.ProductID == 0 ? "Crear Producto" : "Editar Producto")</title>
+</head>
+<body>
+    <h1>@(Model.ProductID == 0 ? "Crear Producto" : "Editar Producto")</h1>
+
+    @using (Html.BeginForm("CUD", "Home", FormMethod.Post))
+    {
+        <div>
+            <label>ID:</label>
+            @if (Model.ProductID == 0)
+            {
+                <input type="text" name="ProductID" />
+            }
+            else
+            {
+                <span>@Model.ProductID</span>
+                <input type="hidden" name="ProductID" value="@Model.ProductID" />
+            }
+        </div>
+        <div>
+            <label>Nombre:</label>
+            <input type="text" name="ProductName" value="@Model.ProductName" />
+        </div>
+        <div>
+            <label>Precio Unitario:</label>
+            <input type="text" name="UnitPrice" value="@Model.UnitPrice" />
+        </div>
+        <div>
+            <label>Unidades en Existencia:</label>
+            <input type="text" name="UnitsInStock" value="@Model.UnitsInStock" />
+        </div>
+        <div>
+            <label>Categoria:</label>
+            <input type="text" name="CategoryID" value="@Model.CategoryID" />
+        </div>
+
+        <button type="submit" name="CreateBtn" value="Create">Crear</button>
+        <button type="submit" name="UpdateBtn" value="Update">Actualizar</button>
+        <button type="submit" name="DeleteBtn" value="Delete">Eliminar</button>
+    }
+
+    <a href="@Url.Action("List", "Home")">
+        <button type="button">Listar Todos</button>
+    </a>
+
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <div style="color: red;">@ViewBag.ErrorMessage</div>
+    }
+
+    @if (ViewBag.SuccessMessage != null)
+    {
+        <div style="color: green;">@ViewBag.SuccessMessage</div>
+    }
+</body>
+</html>

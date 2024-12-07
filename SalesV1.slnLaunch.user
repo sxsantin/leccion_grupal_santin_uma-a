@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "Service\\Service.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "NWind.MVCPLS1\\NWind.MVCPLS.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
